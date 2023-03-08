@@ -11,14 +11,20 @@
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
-
+		<!-- Google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 
 	<body>
 		<section id="title">
 			<!-- Nav Bar -->
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav class="navbar navbar-expand-lg navbar-dark">
 				<a class="navbar-brand" href="#">tindog</a>
 				<!-- Navbar toggle button -->
 				<button
@@ -49,13 +55,15 @@
 			</nav>
 
 			<!-- Title -->
-			<div>
-				<h1>Meet new and interesting dogs nearby.</h1>
-				<button type="button">Download</button>
-				<button type="button">Download</button>
-			</div>
-			<div>
-				<img src="images/iphone6.png" alt="iphone-mockup" />
+			<div class="row">
+				<div class="col-lg-6">
+					<h1>Meet new and interesting dogs nearby.</h1>
+					<button type="button">Download</button>
+					<button type="button">Download</button>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/iphone6.png" alt="iphone-mockup" />
+				</div>
 			</div>
 		</section>
 
