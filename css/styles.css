@@ -9,7 +9,7 @@ body {
 }
 
 .container-fluid {
-	padding: 3% 15%;
+	padding: 3% 15% 7%;
 }
 
 h1 {
@@ -63,11 +63,18 @@ h3 {
 	width: 60%;
 	transform: rotate(25deg);
 	margin-bottom: -40%;
+	left: 15%;
+	
+	position: absolute;
 }
 
 /* Features Section */
 #features {
 	padding: 7% 15%;
+	background-color: #fff;
+
+	position: relative;
+	/* z-index: 1;  Dont need since only z-index and position already makes it a prio on top*/
 }
 
 .feature-box {
@@ -118,12 +125,11 @@ h3 {
 }
 
 /* Pricing Section */
-#pricing{
+#pricing {
 	padding: 100px;
 	text-align: center;
-	
 }
 
-.pricing-column{
+.pricing-column {
 	padding: 3% 2%;
 }
