@@ -5,7 +5,7 @@ body {
 #title {
 	background-color: #ff4c68;
 	color: #fff;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .container-fluid {
@@ -62,9 +62,9 @@ h3 {
 .title-image {
 	width: 60%;
 	transform: rotate(25deg);
-	margin-bottom: -40%;
+	/* margin-bottom: -40%; */
 	left: 15%;
-	
+
 	position: absolute;
 }
 
@@ -132,4 +132,16 @@ h3 {
 
 .pricing-column {
 	padding: 3% 2%;
+}
+
+/* media query */
+@media (max-width: 991px) {
+	#title{
+		text-align: center;
+	}
+
+	.title-image {
+		position: static;
+		transform: rotate(0deg);
+	}
 }
