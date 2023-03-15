@@ -134,9 +134,39 @@ h3 {
 	padding: 3% 2%;
 }
 
+/* Call to Action */
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+	padding: 7% 15%;
+	text-align: center;
+}
+
+.cta-title{
+	font-family: "Montserrat-Black", sans-serif;
+	color: #fff;
+	font-weight: 900px;
+	font-size: 3rem ;
+	line-height: 3.5rem;
+}
+
+/* Footer section */
+#footer{
+	text-align: center;
+	padding: 7% 15%;
+}
+
+.footer-logo i{
+	margin: 20px 10px;
+}
+
+#footer p{
+	opacity: 0.5;
+}
+
 /* media query */
 @media (max-width: 991px) {
-	#title{
+	#title {
 		text-align: center;
 	}
 
@@ -144,4 +174,5 @@ h3 {
 		position: static;
 		transform: rotate(0deg);
 	}
+
 }
