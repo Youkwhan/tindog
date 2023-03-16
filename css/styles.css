@@ -28,6 +28,16 @@ h3 {
 	padding: 7% 15%;
 }
 
+/* Sections */
+.color-section {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+.white-section {
+	background-color: #fff;
+}
+
 /* Navbar */
 .navbar {
 	padding: 0 0 4.5rem;
@@ -50,15 +60,10 @@ h3 {
 }
 
 /* Title Section */
-#title {
-	background-color: #ff4c68;
-	color: #fff;
-	text-align: left;
-	/* overflow: hidden; */
-}
 
 #title .container-fluid {
 	padding-top: 3%;
+	text-align: left;
 }
 
 /* Download Buttons */
@@ -70,7 +75,6 @@ h3 {
 .title-image {
 	width: 60%;
 	transform: rotate(25deg);
-	/* margin-bottom: -40%; */
 	left: 15%;
 
 	position: absolute;
@@ -78,10 +82,7 @@ h3 {
 
 /* Features Section */
 #features {
-	background-color: #fff;
-
 	position: relative;
-	/* z-index: 1;  Dont need since only z-index and position already makes it a prio on top*/
 }
 
 .feature-box {
@@ -108,7 +109,6 @@ h3 {
 /* Testimonial Section */
 #testimonials {
 	background-color: #ef8172;
-	color: #fff;
 }
 
 .testimonial-image {
@@ -149,10 +149,6 @@ h3 {
 }
 
 /* Call to Action */
-#cta {
-	background-color: #ff4c68;
-	color: #fff;
-}
 
 /* Footer section */
 
